@@ -12,7 +12,7 @@ import joblib
 app = Flask(__name__)
 
 # Number of images to take for each user
-nimgs = 10
+nimgs = 5
 
 # Saving Date today in 2 different formats
 datetoday = date.today().strftime("%m_%d_%y")
